@@ -79,9 +79,9 @@ Contributions to the Level Climber are welcome! If you find any bugs or have sug
 
 My name is Avinash Tallapaneni, and I am a front-end web developer passionate about creating immersive and engaging user experiences. CineSpectrum is a project that showcases my skills and dedication to building high-quality web applications.
 
-- Website - [Preview site on Netlify](https://cinespectrum.netlify.app/)
+- Website - [Preview site on Netlify](https://levelclimber.netlify.app/)
 - GitHub - [GitHub Profile](https://github.com/avinash-tallapaneni)
-- Twitter - [Twitter Profile](=https://twitter.com/TallapaneniAvi)
+- Twitter - [Twitter Profile](https://twitter.com/TallapaneniAvi)
 
 ## Feedback
 
