@@ -1,0 +1,74 @@
+.container {
+  padding: var(--padding-large);
+  position: relative;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  width: 45rem;
+  height: 40rem;
+  text-align: center;
+}
+.canvas {
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+.container > div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.menu {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  width: 1.5rem;
+  cursor: pointer;
+}
+.canvas-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.progress-bar {
+  background-color: var(--progress-bar);
+  height: 0.35rem;
+}
+
+.progress {
+  height: 100%;
+  background-color: var(--progress);
+}
+
+p {
+  all: unset;
+}
+.not-cleared-level {
+  font-size: 1.5rem;
+}
+.not-cleared-level p {
+  margin: 1rem 0;
+}
+.not-cleared-level-btn {
+  width: fit-content;
+  margin: auto;
+}
+
+.previous-btn {
+  background-color: rgba(222, 214, 74, 0.2);
+}
+.next-btn {
+  background-color: rgba(17, 212, 128, 0.2);
+}
+.finish-btn {
+  background-color: rgba(10, 192, 113, 0.6);
+}
+.previous-btn:hover {
+  background-color: rgba(222, 214, 74, 0.6);
+}
+.next-btn:hover {
+  background-color: rgba(17, 212, 128, 0.6);
+}
+.finish-btn:hover {
+  background-color: rgba(10, 192, 113, 0.8);
+}

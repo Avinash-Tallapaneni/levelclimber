@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --border-radius: 0.5rem;
+  --padding: 0.5rem;
+  --padding-large: 2.5rem;
+  --box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  --transition: 0.5s ease-in-out;
+  --text-color: rgba(11, 9, 53, 0.941);
+  --progress-bar: rgba(161, 159, 200, 0.792);
+  --progress: rgba(240, 25, 25, 0.934);
+}
+
+body {
+  display: grid;
+  place-items: center;
+  overflow-x: hidden;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  color: var(--text-color);
+}
+
+button {
+  height: 2rem;
+  font-size: 1.25rem;
+  border: none;
+  outline: none;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+}

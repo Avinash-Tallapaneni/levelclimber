@@ -1,0 +1,92 @@
+.header {
+  height: 5rem;
+  background-color: rgba(254, 254, 255, 1);
+  position: fixed;
+  width: 100vw;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+  box-shadow: var(--box-shadow);
+  padding: 0 calc(var(--padding) * 4);
+  font-weight: 500;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+}
+.socials img {
+  width: 1.75rem;
+}
+
+h5 {
+  all: unset;
+}
+
+.level_container {
+  background-color: rgba(208, 218, 241, 0.69);
+  width: 50vw;
+  margin: auto 0;
+  padding: calc(var(--padding-large) * 2) var(--padding-large) 0;
+  border-radius: var(--border-radius);
+  position: relative;
+  box-shadow: var(--box-shadow);
+}
+
+.level_icon {
+  width: 100%;
+  padding: calc(var(--padding) * 2) 0;
+  display: inline-block;
+}
+
+.level_icon > * {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.level_icon img {
+  width: 5rem;
+  height: 7rem;
+}
+
+div[class^="level_icon"]:nth-child(even) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.cleared img:hover {
+  transform: scale(1.08);
+  transition: var(--transition);
+}
+.cleared img:not(:hover) {
+  transform: scale(1);
+  transition: var(--transition);
+}
+
+.not_cleared {
+  filter: grayscale(100%);
+  pointer-events: none;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+.spline {
+ display: flex;
+ flex-direction: column;
+  text-align: center;
+}

@@ -1,0 +1,47 @@
+.modal {
+  background-color: rgba(209, 219, 230, 0.668);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.button-action {
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  transform: translate(-50%,-50%);
+  margin: auto;
+  background-color: whitesmoke;
+  width: 25rem;
+  height: 7.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  border-radius: var(--border-radius);
+}
+
+.button {
+  height: 2rem;
+  font-size: 1.25rem;
+  border: none;
+  outline: none;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+}
+
+.exit-slide-button {
+  background-color: rgba(139, 179, 240, 0.525);
+}
+.exit-slide-button:hover {
+  background-color: rgba(139, 179, 240, 0.875);
+}
+.exit-modal-button {
+  background-color: rgba(236, 134, 125, 0.525);
+}
+.exit-modal-button:hover {
+  background-color: rgba(236, 134, 125, 0.875);
+}
