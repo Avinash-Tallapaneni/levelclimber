@@ -15,21 +15,21 @@ const HomePage = () => {
 
   /*---- open last seen slide when user revists the website------*/
 
-  useEffect(() => {
-    const lastSeenSlide = localStorage.getItem("lastSeenSlide");
+  // useEffect(() => {
+  //   const lastSeenSlide = localStorage.getItem("lastSeenSlide");
 
-    if (lastSeenSlide) {
-      const { currentLevel, slideIndex, activeLevel } =
-      JSON.parse(lastSeenSlide);
-      const urlPath = `/level${currentLevel}/${slideIndex}`;
-      console.log(typeof(currentLevel), slideIndex, activeLevel);
-      if (slideIndex === 1) {
-        navigate("/");
-      } else {
-        navigate(urlPath);
-      }
-    }
-  }, []);
+  //   if (lastSeenSlide) {
+  //     const { currentLevel, slideIndex, activeLevel } =
+  //     JSON.parse(lastSeenSlide);
+  //     const urlPath = `/level${currentLevel}/${slideIndex}`;
+  //     console.log(typeof(currentLevel), slideIndex, activeLevel);
+  //     if (slideIndex === 1) {
+  //       navigate("/");
+  //     } else {
+  //       navigate(urlPath);
+  //     }
+  //   }
+  // }, []);
 
   const handleCurrentLevelClick = (levelNumber) => {
     setCurrentLevel(levelNumber);
