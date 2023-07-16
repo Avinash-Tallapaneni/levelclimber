@@ -19,9 +19,11 @@ const HomePage = () => {
     const lastSeenSlide = localStorage.getItem("lastSeenSlide");
 
     if (lastSeenSlide) {
-      const { level, slide } = JSON.parse(lastSeenSlide);
-      const urlPath = `/level${level}/${slide}`;
-      if (!level) {
+      const { currentLevel, slideIndex, activeLevel } =
+      JSON.parse(lastSeenSlide);
+      const urlPath = `/level${currentLevel}/${slideIndex}`;
+      console.log(typeof(currentLevel), slideIndex, activeLevel);
+      if (slideIndex === 1) {
         navigate("/");
       } else {
         navigate(urlPath);

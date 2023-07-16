@@ -24,7 +24,7 @@ const SlidePage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [progress, setProgress] = useState(0);
   const [isNextActive, setIsNextActive] = useState(true);
-  const timer = 50; // 50msec timer for const update of progressbar
+  const timer = 1; // 50msec timer for const update of progressbar
   const increment = 1; // no of increment
 
   var { levelNumber, slideNumber } = useParams();
